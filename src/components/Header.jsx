@@ -1,11 +1,12 @@
 // src/components/Header.jsx
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Header.module.css';
 
 const Header = () => (
-  <header className="App-header">
-    <h1>Mathematical Equation Parser</h1>
-    <p className="subtitle">Built with Nearley and Moo</p>
+  <header className={styles.header}>
+    <h1 className={styles.title}>Mathematical Equation Parser</h1>
+    <p className={styles.subtitle}>Built with Nearley and Moo</p>
   </header>
 );
 

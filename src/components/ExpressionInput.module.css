@@ -1,0 +1,60 @@
+.inputSection {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.inputLabel {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #2d3748;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.input {
+  flex: 1;
+  padding: 15px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  background: #f8fafc;
+  transition: all 0.2s ease;
+  min-width: 300px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #667eea;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.button {
+  padding: 15px 25px;
+  background-color: #7D9F3E;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 100px;
+}
+
+.button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
